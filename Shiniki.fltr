@@ -1,0 +1,190 @@
+{
+    "name": "Shiniki",
+    "rules": [
+        {
+            "name": "HIDE ALL",
+            "enabled": true,
+            "ruleType": "hide",
+            "filterEtherealSocketed": true,
+            "equipmentRarity": [
+                "rare",
+                "lowQuality",
+                "set",
+                "unique",
+                "magic",
+                "hiQuality",
+                "normal"
+            ],
+            "equipmentQuality": [
+                "normal",
+                "exceptional",
+                "elite"
+            ],
+            "equipmentCategory": [
+                "acce",
+                "weap",
+                "armo"
+            ],
+            "itemCategory": [
+                "misc"
+            ],
+            "goldFilterValue": 100000
+        },
+        {
+            "name": "SHOW Uniques",
+            "enabled": true,
+            "ruleType": "show",
+            "filterEtherealSocketed": false,
+            "equipmentRarity": [
+                "unique"
+            ]
+        },
+        {
+            "name": "SHOW Runes",
+            "enabled": true,
+            "ruleType": "show",
+            "filterEtherealSocketed": false,
+            "itemCategory": [
+                "runes"
+            ]
+        },
+        {
+            "name": "SHOW Sets",
+            "enabled": true,
+            "ruleType": "show",
+            "filterEtherealSocketed": false,
+            "equipmentRarity": [
+                "set"
+            ]
+        },
+        {
+            "name": "SHOW Base Items",
+            "enabled": true,
+            "ruleType": "show",
+            "filterEtherealSocketed": true,
+            "equipmentRarity": [
+                "lowQuality",
+                "hiQuality",
+                "normal"
+            ],
+            "equipmentQuality": [
+                "normal",
+                "exceptional",
+                "elite"
+            ],
+            "equipmentCategory": [
+                "bows",
+                "maces",
+                "stave",
+                "acce",
+                "wands",
+                "armo",
+                "axes",
+                "sorce",
+                "amazo",
+                "poles",
+                "daggs",
+                "xbows",
+                "scept",
+                "spear",
+                "javel",
+                "sword",
+                "assas"
+            ],
+            "equipmentItemCode": [
+                "7b8",
+                "9tk",
+                "bkf",
+                "bal",
+                "7tk",
+                "tkf",
+                "tax",
+                "7ta",
+                "7bk",
+                "9b8",
+                "9bk",
+                "9ta"
+            ]
+        },
+        {
+            "name": "SHOW Rare Items",
+            "enabled": true,
+            "ruleType": "show",
+            "filterEtherealSocketed": false,
+            "equipmentRarity": [
+                "rare"
+            ]
+        },
+        {
+            "name": "Show Magic Items",
+            "enabled": true,
+            "ruleType": "show",
+            "filterEtherealSocketed": false,
+            "equipmentRarity": [
+                "magic"
+            ],
+            "equipmentCategory": [
+                "sorce",
+                "acce",
+                "circl"
+            ]
+        },
+        {
+            "name": "HIDE Ammo",
+            "enabled": true,
+            "ruleType": "hide",
+            "filterEtherealSocketed": false,
+            "itemCategory": [
+                "ammo"
+            ]
+        },
+        {
+            "name": "Show Potions",
+            "enabled": true,
+            "ruleType": "show",
+            "filterEtherealSocketed": false,
+            "itemCode": [
+                "hp5",
+                "mp5",
+                "rvl"
+            ]
+        },
+        {
+            "name": "Show Gold Piles",
+            "enabled": true,
+            "ruleType": "show",
+            "filterEtherealSocketed": false,
+            "goldFilterValue": 1915
+        },
+        {
+            "name": "Show Gems",
+            "enabled": true,
+            "ruleType": "show",
+            "filterEtherealSocketed": false,
+            "itemCategory": [
+                "gems"
+            ]
+        },
+        {
+            "name": "Show End Game Mats",
+            "enabled": true,
+            "ruleType": "show",
+            "filterEtherealSocketed": false,
+            "itemCategory": [
+                "uberm",
+                "terrt",
+                "absol"
+            ]
+        },
+        {
+            "name": "Show Scrolls",
+            "enabled": true,
+            "ruleType": "show",
+            "filterEtherealSocketed": false,
+            "itemCode": [
+                "isc",
+                "tsc"
+            ]
+        }
+    ]
+}
