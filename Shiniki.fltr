@@ -9,9 +9,9 @@
             "equipmentRarity": [
                 "rare",
                 "lowQuality",
-                "set",
-                "unique",
                 "magic",
+                "unique",
+                "set",
                 "hiQuality",
                 "normal"
             ],
@@ -22,8 +22,8 @@
             ],
             "equipmentCategory": [
                 "acce",
-                "weap",
-                "armo"
+                "armo",
+                "weap"
             ],
             "itemCategory": [
                 "misc"
@@ -77,8 +77,8 @@
                 "maces",
                 "stave",
                 "acce",
-                "wands",
                 "armo",
+                "wands",
                 "axes",
                 "sorce",
                 "amazo",
@@ -100,10 +100,10 @@
                 "tkf",
                 "tax",
                 "7ta",
-                "7bk",
                 "9b8",
-                "9bk",
-                "9ta"
+                "7bk",
+                "9ta",
+                "9bk"
             ]
         },
         {
@@ -144,8 +144,8 @@
             "ruleType": "show",
             "filterEtherealSocketed": false,
             "itemCode": [
-                "hp5",
                 "mp5",
+                "hp5",
                 "rvl"
             ]
         },
