@@ -3,15 +3,15 @@
     "rules": [
         {
             "name": "HIDE ALL",
-            "enabled": true,
+            "enabled": false,
             "ruleType": "hide",
             "filterEtherealSocketed": true,
             "equipmentRarity": [
                 "rare",
                 "lowQuality",
-                "set",
-                "unique",
                 "magic",
+                "unique",
+                "set",
                 "hiQuality",
                 "normal"
             ],
@@ -22,8 +22,8 @@
             ],
             "equipmentCategory": [
                 "acce",
-                "weap",
-                "armo"
+                "armo",
+                "weap"
             ],
             "itemCategory": [
                 "misc"
@@ -32,7 +32,7 @@
         },
         {
             "name": "SHOW Uniques",
-            "enabled": true,
+            "enabled": false,
             "ruleType": "show",
             "filterEtherealSocketed": false,
             "equipmentRarity": [
@@ -41,7 +41,7 @@
         },
         {
             "name": "SHOW Runes",
-            "enabled": true,
+            "enabled": false,
             "ruleType": "show",
             "filterEtherealSocketed": false,
             "itemCategory": [
@@ -50,7 +50,7 @@
         },
         {
             "name": "SHOW Sets",
-            "enabled": true,
+            "enabled": false,
             "ruleType": "show",
             "filterEtherealSocketed": false,
             "equipmentRarity": [
@@ -59,7 +59,7 @@
         },
         {
             "name": "SHOW Base Items",
-            "enabled": true,
+            "enabled": false,
             "ruleType": "show",
             "filterEtherealSocketed": true,
             "equipmentRarity": [
@@ -77,8 +77,8 @@
                 "maces",
                 "stave",
                 "acce",
-                "wands",
                 "armo",
+                "wands",
                 "axes",
                 "sorce",
                 "amazo",
@@ -100,15 +100,15 @@
                 "tkf",
                 "tax",
                 "7ta",
-                "7bk",
                 "9b8",
-                "9bk",
-                "9ta"
+                "7bk",
+                "9ta",
+                "9bk"
             ]
         },
         {
             "name": "SHOW Rare Items",
-            "enabled": true,
+            "enabled": false,
             "ruleType": "show",
             "filterEtherealSocketed": false,
             "equipmentRarity": [
@@ -117,7 +117,7 @@
         },
         {
             "name": "Show Magic Items",
-            "enabled": true,
+            "enabled": false,
             "ruleType": "show",
             "filterEtherealSocketed": false,
             "equipmentRarity": [
@@ -131,7 +131,7 @@
         },
         {
             "name": "HIDE Ammo",
-            "enabled": true,
+            "enabled": false,
             "ruleType": "hide",
             "filterEtherealSocketed": false,
             "itemCategory": [
@@ -140,25 +140,25 @@
         },
         {
             "name": "Show Potions",
-            "enabled": true,
+            "enabled": false,
             "ruleType": "show",
             "filterEtherealSocketed": false,
             "itemCode": [
-                "hp5",
                 "mp5",
+                "hp5",
                 "rvl"
             ]
         },
         {
             "name": "Show Gold Piles",
-            "enabled": true,
+            "enabled": false,
             "ruleType": "show",
             "filterEtherealSocketed": false,
             "goldFilterValue": 1915
         },
         {
             "name": "Show Gems",
-            "enabled": true,
+            "enabled": false,
             "ruleType": "show",
             "filterEtherealSocketed": false,
             "itemCategory": [
@@ -167,7 +167,7 @@
         },
         {
             "name": "Show End Game Mats",
-            "enabled": true,
+            "enabled": false,
             "ruleType": "show",
             "filterEtherealSocketed": false,
             "itemCategory": [
@@ -178,7 +178,7 @@
         },
         {
             "name": "Show Scrolls",
-            "enabled": true,
+            "enabled": false,
             "ruleType": "show",
             "filterEtherealSocketed": false,
             "itemCategory": [
